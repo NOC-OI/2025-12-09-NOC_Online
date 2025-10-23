@@ -9,15 +9,15 @@ country: "gb"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "50.8930098"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1.3974532"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "November 19, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:30 am - 5 pm UTC"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2025-11-19     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2025-11-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+humandate: "November 09 - 10, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "2 pm - 5 pm UTC"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
+startdate: 2025-12-09     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2025-12-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Colin Sauze", "Tobias Ferreira"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Esther Turner", "TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["colin.sauze@noc.ac.uk","esther.turner@noc.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite: 1858430047299          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: 1858459786249          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
 
@@ -66,7 +66,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please go directly to the <a href="https://2025-11-19-containers.eventbrite.com">registration page.</a></strong>
+  registration box below, please go directly to the <a href="https://2025-12-09-oopython.eventbrite.com">registration page.</a></strong>
 
 <div id="eventbrite-widget-container"></div>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -85,9 +85,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <p id="what">
   <strong>About this workshop:</strong>
-  This course is an introduction to containers and is intended as a beginner level course that is suitable for people who have no experience of containers. 
-  It is aimed to help people who want to develop their knowledge of container tooling to help improve reproducibility and support their research work, or that of individuals or teams they are working with.
-  Basic familiarity with using the Unix shell/the command line is assumed. We'll be using Docker or Podman during this course, but may discuss Singularity at the end as well, if there is interest. Please note that ideally admin access to your laptop is required for this workshop, in order to install Docker/Podman. If you don't already have an EP account, this can be requested through the ServiceHub (Request a Service -> IT -> Access Requests -> Request an EP account); however, you will need a business case from your director before applying. If this isn't possible, please get in touch with us so that we can arrange a workaround. 
+  Object-oriented programming is a popular technique for structuring software, particularly in larger software projects being developed by larger groups of people. In this lesson we will use the tools for object-oriented programming provided by the Python programming language to learn how it can be used to write modular, reusable components for research software. This lesson assumes some level of familiarity with the Python programming language. If you have not previously used Python then we would recommend reading through Software Carpentry’s introductory <a href="https://noc-oi.github.io/python-novice-esces/">Programming with Python</a>  lesson before embarking on this one.
   Please see the course notes for further information or get in touch with us. 
 </p>
 
